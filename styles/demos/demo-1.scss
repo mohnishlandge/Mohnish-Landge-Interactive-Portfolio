@@ -45,7 +45,8 @@
   visibility: hidden;
 
   @media (max-width: 1200px) {
-    height: 1800%;
+    height: 450%;
+    width: auto;
   }
 }
 
@@ -137,8 +138,9 @@
 
   @media (max-width: 1200px) {
     &:nth-child(1) {
-      height: 60rem;
-      width: 100rem;
+      height: 100%;
+      width: 100%;
+      transform: scale(0.9);
     }
 
     &:nth-child(2) {

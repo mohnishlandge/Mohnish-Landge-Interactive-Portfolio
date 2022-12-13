@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  font-family: Helvetica, Arial, sans-serif;
+}
+main {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+img {
+  width: 100%;
+}
